@@ -26,7 +26,7 @@ class DottedBorder extends StatelessWidget {
 
   DottedBorder({
     required this.child,
-    this.color = Colors.black,
+    this.color = Colors.green,
     this.strokeWidth = 1,
     this.borderType = BorderType.Rect,
     this.dashPattern = const <double>[3, 1],
